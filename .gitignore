@@ -213,3 +213,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+gen/info/shangma/iMeal/BuildConfig.java
+gen/info/shangma/iMeal/R.java
