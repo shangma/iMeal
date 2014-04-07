@@ -18,7 +18,7 @@
         <ImageButton
             android:id="@+id/imageButton1"
             android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_height="120px"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -59,20 +59,16 @@
             <Button
                 android:id="@+id/btn_Special"
                 style="@style/buttoninmain"
-                android:layout_above="@+id/btn_Menu"
+                android:layout_marginTop="50dp"
                 android:text="Special" />
 
             <Button
-                android:id="@id/btn_Menu"
+                android:id="@+id/btn_Menu"
                 style="@style/buttoninmain"
-                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/btn_Special"
                 android:text="Menu" />
 
-            <Button
-                android:id="@+id/btn_Order"
-                style="@style/buttoninmain"
-                android:layout_below="@id/btn_Menu"
-                android:text="Cart" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -83,20 +79,15 @@
             <Button
                 android:id="@+id/btn_Photo"
                 style="@style/buttoninmain"
-                android:layout_above="@+id/btn_Yelp"
-                android:text="Photo" />
-
+                android:layout_marginTop="50dp"
+                android:text="Share Photo" />
             <Button
-                android:id="@id/btn_Yelp"
+                android:id="@+id/btn_Yelp"
                 style="@style/buttoninmain"
-                android:layout_centerVertical="true"
-                android:text="Yelp" />
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/btn_Photo"
+                android:text="Find on Yelp" />
 
-            <Button
-                android:id="@+id/btn_Local"
-                style="@style/buttoninmain"
-                android:layout_below="@id/btn_Yelp"
-                android:text="Local" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -107,20 +98,16 @@
             <Button
                 android:id="@+id/btn_Restroom"
                 style="@style/buttoninmain"
-                android:layout_above="@+id/btn_Napkin"
+                android:layout_marginTop="50dp"
                 android:text="Restroom" />
 
             <Button
-                android:id="@id/btn_Napkin"
+                android:id="@+id/btn_Napkin"
                 style="@style/buttoninmain"
-                android:layout_centerVertical="true"
-                android:text="Napkin" />
-
-            <Button
-                android:id="@+id/btn_Other"
-                style="@style/buttoninmain"
-                android:layout_below="@id/btn_Napkin"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/btn_Restroom"
                 android:text="Others" />
+
         </RelativeLayout>
     </LinearLayout>
 
