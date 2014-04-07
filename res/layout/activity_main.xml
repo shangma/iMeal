@@ -72,7 +72,7 @@
                 android:id="@+id/btn_Order"
                 style="@style/buttoninmain"
                 android:layout_below="@id/btn_Menu"
-                android:text="Order" />
+                android:text="Cart" />
         </RelativeLayout>
 
         <RelativeLayout
